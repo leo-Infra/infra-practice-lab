@@ -23,12 +23,14 @@ The environment includes:
 
 ## Architecture
 
-client-admin client-user
-| |
-| |
-+------ lab-net ------+
-|
-srv-infra
+```
+client-admin        client-user
+     |                   |
+     |                   |
+     +------ lab-net ----+
+              |
+          srv-infra
+```
 
 ## Machines
 
