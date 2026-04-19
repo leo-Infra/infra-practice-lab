@@ -14,17 +14,27 @@ The environment includes:
 
 ## Objectives
 
-- understand how multiple machines communicate on a private network
-- configure static IP addressing
-- deploy and access services from client machines
-- manage a Linux server remotely
-- practice basic troubleshooting and documentation
+- build a virtual lab from scratch
+- understand how machines communicate on a network
+- configure static IP addresses
+- use SSH for remote administration
+- understand the difference between internal network and internet access
+- practice troubleshooting
+
+## Architecture
+
+client-admin client-user
+| |
+| |
++------ lab-net ------+
+|
+srv-infra
 
 ## Machines
 
-- `srv-infra` - main Linux server
-- `client-admin` - administration workstation
-- `client-user` - user workstation
+- `srv-infra` - main Linux server → 192.168.56.10
+- `client-admin` - administration workstation → 192.168.56.20
+- `client-user` - user workstation → 192.168.56.30
 
 ## Main topics covered
 
